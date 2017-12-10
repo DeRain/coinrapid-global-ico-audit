@@ -1,0 +1,46 @@
+strict digraph {
+  mul [color=blue]
+  assert
+  div [color=blue]
+  sub [color=blue]
+  add [color=blue]
+  kill
+  pause
+  Pause
+  unpause
+  Unpause
+  balanceOf [color=blue]
+  transfer
+  require
+  Transfer
+  allowance [color=blue]
+  transferFrom
+  approve
+  Approval
+  increaseApproval
+  decreaseApproval
+  RapidCoin
+  null
+  transferFundToAccount
+  resetTokenOfAddress
+  transferLimitedFundToAccount
+  extendDeadline
+  mul -> assert
+  div -> assert
+  sub -> assert
+  add -> assert
+  pause -> Pause
+  unpause -> Unpause
+  transfer -> require
+  transfer -> Transfer
+  transferFrom -> require
+  approve -> Approval
+  increaseApproval -> Approval
+  decreaseApproval -> Approval
+  null -> require
+  transferFundToAccount -> require
+  transferFundToAccount -> transfer
+  transferLimitedFundToAccount -> require
+  transferLimitedFundToAccount -> transfer
+}
+

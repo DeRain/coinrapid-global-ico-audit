@@ -1,0 +1,237 @@
+
+./contracts/RapidCoin.sol
+
+║ Line     │ Column   │ Type     │ Message                                                │ Rule ID              ║
+╟──────────┼──────────┼──────────┼────────────────────────────────────────────────────────┼──────────────────────╢
+║ 1        │ 17       │ warning  │ Compiler version must be fixed                         │ compiler-fixed       ║
+║ 2        │ 1        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 5        │ 9        │ error    │ Expected indentation of 4 spaces but found 8           │ indent               ║
+║ 20       │ 1        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 21       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 22       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 23       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 24       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 25       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 27       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 28       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 29       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 31       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 32       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 34       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 35       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 36       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 37       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 39       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 40       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 41       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 42       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 43       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 46       │ 1        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 48       │ 28       │ error    │ Open bracket must be indented by other                 │ bracket-align        ║
+║          │          │          │ constructions by space                                 │                      ║
+║ 53       │ 1        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 54       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 55       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 57       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 63       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 63       │ 3        │ error    │ Definitions inside contract / library must be          │ separate-by-one-     ║
+║          │          │          │ separated by one line                                  │ line-in-contract     ║
+║ 64       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 65       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 66       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 71       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 72       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 73       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 74       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 79       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 79       │ 3        │ warning  │ Event and function names must be different             │ no-simple-event-     ║
+║          │          │          │                                                        │ func-name            ║
+║ 80       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 81       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 82       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 87       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 87       │ 3        │ warning  │ Event and function names must be different             │ no-simple-event-     ║
+║          │          │          │                                                        │ func-name            ║
+║ 88       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 89       │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 90       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 97       │ 1        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 98       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 99       │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 100      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 101      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 101      │ 3        │ warning  │ Event and function names must be different             │ no-simple-event-     ║
+║          │          │          │                                                        │ func-name            ║
+║ 108      │ 2        │ error    │ Expected indentation of 0 spaces but found 1           │ indent               ║
+║ 108      │ 2        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 109      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 110      │ 3        │ warning  │ Explicitly mark visibility of state                    │ state-visibility     ║
+║ 110      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 117      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 117      │ 3        │ warning  │ Event and function names must be different             │ no-simple-event-     ║
+║          │          │          │                                                        │ func-name            ║
+║ 118      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 119      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 121      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 122      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 123      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 124      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 125      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 133      │ 3        │ error    │ Definitions inside contract / library must be          │ separate-by-one-     ║
+║          │          │          │ separated by one line                                  │ line-in-contract     ║
+║ 133      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 134      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 135      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 142      │ 1        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 143      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 144      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 145      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 146      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 149      │ 1        │ error    │ Definition must be surrounded with two blank line      │ two-lines-top-level- ║
+║          │          │          │ indent                                                 │ separator            ║
+║ 151      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 160      │ 71       │ warning  │ Explicitly mark visibility in function                 │ func-visibility      ║
+║ 160      │ 5        │ error    │ Definitions inside contract / library must be          │ separate-by-one-     ║
+║          │          │          │ separated by one line                                  │ line-in-contract     ║
+║ 183      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 183      │ 3        │ error    │ Definitions inside contract / library must be          │ separate-by-one-     ║
+║          │          │          │ separated by one line                                  │ line-in-contract     ║
+║ 184      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 185      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 186      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 187      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 195      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 196      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 197      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 204      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 205      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 206      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 207      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 208      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 210      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 211      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 212      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 213      │ 7        │ error    │ Expected indentation of 12 spaces but found 6          │ indent               ║
+║ 214      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 215      │ 7        │ error    │ Expected indentation of 12 spaces but found 6          │ indent               ║
+║ 216      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 217      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 218      │ 5        │ error    │ Expected indentation of 8 spaces but found 4           │ indent               ║
+║ 219      │ 3        │ error    │ Expected indentation of 4 spaces but found 2           │ indent               ║
+║ 225      │ 35       │ error    │ Use double quotes for string literals                  │ quotes               ║
+║ 225      │ 28       │ error    │ Constant name must be in capitalized SNAKE_CASE        │ const-name-snakecase ║
+║ 226      │ 26       │ error    │ Constant name must be in capitalized SNAKE_CASE        │ const-name-snakecase ║
+║ 227      │ 37       │ error    │ Use double quotes for string literals                  │ quotes               ║
+║ 227      │ 28       │ error    │ Constant name must be in capitalized SNAKE_CASE        │ const-name-snakecase ║
+║ 228      │ 28       │ error    │ Constant name must be in capitalized SNAKE_CASE        │ const-name-snakecase ║
+║ 228      │ 38       │ error    │ Use double quotes for string literals                  │ quotes               ║
+║ 229      │ 5        │ warning  │ Explicitly mark visibility of state                    │ state-visibility     ║
+║ 232      │ 5        │ warning  │ Explicitly mark visibility of state                    │ state-visibility     ║
+║ 233      │ 5        │ warning  │ Explicitly mark visibility of state                    │ state-visibility     ║
+║ 234      │ 5        │ warning  │ Explicitly mark visibility of state                    │ state-visibility     ║
+║ 235      │ 5        │ warning  │ Explicitly mark visibility of state                    │ state-visibility     ║
+║ 236      │ 5        │ warning  │ Explicitly mark visibility of state                    │ state-visibility     ║
+║ 242      │ 43       │ error    │ Semicolon must not have spaces before                  │ no-spaces-before-    ║
+║          │          │          │                                                        │ semicolon            ║
+║ 246      │ 28       │ warning  │ Avoid to make time-based decisions in your             │ not-rely-on-time     ║
+║          │          │          │ business logic                                         │                      ║
+║ 251      │ 5        │ error    │ Definitions inside contract / library must be          │ separate-by-one-     ║
+║          │          │          │ separated by one line                                  │ line-in-contract     ║
+║ 251      │ 5        │ warning  │ Fallback function must be simple                       │ no-complex-fallback  ║
+║ 251      │ 17       │ warning  │ Explicitly mark visibility in function                 │ func-visibility      ║
+║ 252      │ 28       │ error    │ Expression indentation is incorrect. Required          │ expression-indent    ║
+║          │          │          │ space after !=.                                        │                      ║
+║ 253      │ 17       │ warning  │ Avoid to make time-based decisions in your             │ not-rely-on-time     ║
+║          │          │          │ business logic                                         │                      ║
+║ 253      │ 20       │ error    │ Expression indentation is incorrect. Required          │ expression-indent    ║
+║          │          │          │ space after >=.                                        │                      ║
+║ 254      │ 17       │ warning  │ Avoid to make time-based decisions in your             │ not-rely-on-time     ║
+║          │          │          │ business logic                                         │                      ║
+║ 254      │ 20       │ error    │ Expression indentation is incorrect. Required          │ expression-indent    ║
+║          │          │          │ space after <=.                                        │                      ║
+║ 256      │ 15       │ error    │ Expression indentation is incorrect. Required          │ expression-indent    ║
+║          │          │          │ space after <.                                         │                      ║
+║ 256      │ 12       │ warning  │ Avoid to make time-based decisions in your             │ not-rely-on-time     ║
+║          │          │          │ business logic                                         │                      ║
+║ 256      │ 9        │ error    │ Statement indentation is incorrect. Required space     │ statement-indent     ║
+║          │          │          │ after if.                                              │                      ║
+║ 256      │ 31       │ error    │ Open bracket must be on same line. It must be          │ bracket-align        ║
+║          │          │          │ indented by other constructions by space               │                      ║
+║ 258      │ 14       │ error    │ Expected indentation of 12 spaces but found 13         │ indent               ║
+║ 259      │ 14       │ error    │ Expected indentation of 12 spaces but found 13         │ indent               ║
+║ 260      │ 14       │ error    │ Statement indentation is incorrect. Required space     │ statement-indent     ║
+║          │          │          │ after if.                                              │                      ║
+║ 260      │ 57       │ error    │ Open bracket must be on same line. It must be          │ bracket-align        ║
+║          │          │          │ indented by other constructions by space               │                      ║
+║ 260      │ 17       │ warning  │ Avoid to make time-based decisions in your             │ not-rely-on-time     ║
+║          │          │          │ business logic                                         │                      ║
+║ 260      │ 14       │ error    │ Expected indentation of 12 spaces but found 13         │ indent               ║
+║ 260      │ 42       │ error    │ Expression indentation is incorrect. Use the same      │ expression-indent    ║
+║          │          │          │ amount of whitespace on either side of an              │                      ║
+║          │          │          │ operator.                                              │                      ║
+║ 261      │ 18       │ error    │ Expected indentation of 16 spaces but found 17         │ indent               ║
+║ 262      │ 24       │ warning  │ Avoid to make time-based decisions in your             │ not-rely-on-time     ║
+║          │          │          │ business logic                                         │                      ║
+║ 262      │ 49       │ error    │ Expression indentation is incorrect. Use the same      │ expression-indent    ║
+║          │          │          │ amount of whitespace on either side of an              │                      ║
+║          │          │          │ operator.                                              │                      ║
+║ 262      │ 64       │ error    │ Open bracket must be on same line. It must be          │ bracket-align        ║
+║          │          │          │ indented by other constructions by space               │                      ║
+║ 262      │ 14       │ error    │ Expected indentation of 12 spaces but found 13         │ indent               ║
+║ 263      │ 18       │ error    │ Expected indentation of 16 spaces but found 17         │ indent               ║
+║ 264      │ 14       │ error    │ Expected indentation of 12 spaces but found 13         │ indent               ║
+║ 265      │ 49       │ error    │ Expression indentation is incorrect. Use the same      │ expression-indent    ║
+║          │          │          │ amount of whitespace on either side of an              │                      ║
+║          │          │          │ operator.                                              │                      ║
+║ 269      │ 35       │ error    │ Open bracket must be on same line. It must be          │ bracket-align        ║
+║          │          │          │ indented by other constructions by space               │                      ║
+║ 269      │ 9        │ error    │ Statement indentation is incorrect. Else must be       │ statement-indent     ║
+║          │          │          │ on the same line with close bracket.                   │                      ║
+║ 269      │ 14       │ error    │ Statement indentation is incorrect. Required space     │ statement-indent     ║
+║          │          │          │ after if.                                              │                      ║
+║ 269      │ 20       │ error    │ Expression indentation is incorrect. Required          │ expression-indent    ║
+║          │          │          │ space after >.                                         │                      ║
+║ 269      │ 17       │ warning  │ Avoid to make time-based decisions in your             │ not-rely-on-time     ║
+║          │          │          │ business logic                                         │                      ║
+║ 273      │ 9        │ error    │ Statement indentation is incorrect. Else must be       │ statement-indent     ║
+║          │          │          │ on the same line with close bracket.                   │                      ║
+║ 276      │ 35       │ error    │ Expression indentation is incorrect. Required          │ expression-indent    ║
+║          │          │          │ space after +=.                                        │                      ║
+║ 277      │ 14       │ warning  │ Variable "result" is unused                            │ no-unused-vars       ║
+║ 277      │ 53       │ error    │ Comma must be separated from next element by space     │ space-after-comma    ║
+║ 277      │ 42       │ error    │ Comma must be separated from next element by space     │ space-after-comma    ║
+║ 285      │ 5        │ error    │ Definitions inside contract / library must be          │ separate-by-one-     ║
+║          │          │          │ separated by one line                                  │ line-in-contract     ║
+║ 291      │ 44       │ error    │ Semicolon must not have spaces before                  │ no-spaces-before-    ║
+║          │          │          │                                                        │ semicolon            ║
+║ 291      │ 7        │ error    │ Expected indentation of 8 spaces but found 6           │ indent               ║
+║ 292      │ 7        │ error    │ Expected indentation of 8 spaces but found 6           │ indent               ║
+║ 293      │ 23       │ error    │ Expression indentation is incorrect. Required          │ expression-indent    ║
+║          │          │          │ space after +=.                                        │                      ║
+║ 293      │ 7        │ error    │ Expected indentation of 8 spaces but found 6           │ indent               ║
+║ 298      │ 114      │ error    │ Open bracket must be indented by other                 │ bracket-align        ║
+║          │          │          │ constructions by space                                 │                      ║
+║ 298      │ 5        │ error    │ Definitions inside contract / library must be          │ separate-by-one-     ║
+║          │          │          │ separated by one line                                  │ line-in-contract     ║
+║ 308      │ 62       │ error    │ Open bracket must be indented by other                 │ bracket-align        ║
+║          │          │          │ constructions by space                                 │                      ║
+║ 308      │ 4        │ error    │ Expected indentation of 4 spaces but found 3           │ indent               ║
+║ 309      │ 8        │ error    │ Expected indentation of 8 spaces but found 7           │ indent               ║
+║ 309      │ 34       │ error    │ Expression indentation is incorrect. Use the same      │ expression-indent    ║
+║          │          │          │ amount of whitespace on either side of an              │                      ║
+║          │          │          │ operator.                                              │                      ║
+║ 310      │ 4        │ error    │ Expected indentation of 4 spaces but found 3           │ indent               ║
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ 147 Errors                                                                                                     ║
+╟────────────────────────────────────────────────────────────────────────────────────────────────────────────────╢
+║ 23 Warnings                                                                                                    ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
