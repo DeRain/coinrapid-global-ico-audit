@@ -3,4 +3,4 @@
 #### [Smart Contract](./contracts/RapidCoin.sol)  
 
 [1. Build log](/audit/1_build_log.md)  
-[2. Migration log](./audit/2_reports_analysis.md)  
+[2. Manual analysis of reports provided by tools](./audit/2_reports_analysis.md)  
