@@ -4,7 +4,7 @@
 
 Highlighted issues provided by the [report](../report/solhint/report)  
  
-#### CREDToken.sol
+#### RapidCoin.sol
 
 We highlighted most important issues provided by the report from Solhint tool. All this issues need to be fixed 
 except time-based decision issues. Time-based decisions should be checked in manual audit of the code.
@@ -45,7 +45,7 @@ Based on Solgraph report we should pay attention at methods:
   - transferLimitedFundToAccount
   - transferFundToAccount   
   
-This methods linked with ERC20 transfer method which responsible to transfer tokens to the owner.     
+This methods linked with transfer method which responsible to transfer fund to the address.       
 
 [Solgraph report in .dot format](../report/solgraph/RapidCoin.dot)     
 ![Graph](../report/solgraph/RapidCoin.png)
