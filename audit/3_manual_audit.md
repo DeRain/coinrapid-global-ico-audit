@@ -41,3 +41,4 @@
 | 287   | _accountByOwner.transfer(amountRaised);                                                            | Warning! amountRaised will always be zero so the fund will be locked in the contract!                       | High     |
 | 299   | require(amountRaised > balanceToTransfer);                                                         | Warning! amountRaised will always be zero so the fund will be locked in the contract!                       | High     |
 | 301   | amountRaised -= balanceToTransfer;                                                                 | Warning! amountRaised will always be zero so the fund will be locked in the contract!                       | High     |
+| 164   | if (balances[_from] >= _value && allowance(_from, _to) >= _value) {                                | Warning! Allocation should be checked for msg.sender, not for to address                                    | High     |
